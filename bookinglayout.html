@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Indian Feast</title>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Fjalla+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/40c9a909b8.js" crossorigin="anonymous"></script>
+
+<link rel="icon" href="images/logo.png"></link>
+
+</head>
+<body>
+   <div id="blur">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a href=""><img class=logo src="images/logo.png" alt=""></a>
+                <a class="navbar-brand" id="main" href="#">The Indian Feast</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li ><a href="home.html">Home</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"><button class="res"  onclick="reservation(event)" type="button"> <i class="fa-solid fa-plus"> </i> Reservation</button></a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="container1">
+            <div class="table">
+          <div onclick="reserve1()" id="t1" class="t1">1</div>
+          <div onclick="reserve2()" id="t2" class="t2">2</div>
+          <div onclick="reserve3()" id="t3" class="t3">3</div>
+          <div onclick="reserve4()" id="t4" class="t4">4</div>
+          <div onclick="reserve5()" id="t5" class="t5">5</div>
+          <div onclick="reserve6()" id="t6" class="t6">6</div>
+          <div onclick="reserve7()" id="t7" class="t7">7</div>
+          <div onclick="reserve8()" id="t8" class="t8">8</div>
+          <div onclick="reserve9()" id="t9" class="t9">9</div>
+            </div>
+        </div>
+    </div>
+
+     <!-- booking.js -->
+  <div id="popup">
+    <form method="post" action="booking.php">
+     <div class="row ">
+       <div class="col">
+         <input id="name" name="name" type="text" class="form-control" placeholder="Name" >
+       </div>
+       <br>
+       <div class="col">
+         <input id="num" name="num" type="text" class="form-control" placeholder="Mobile Number" >
+       </div>
+       <br>
+       <div class="col">
+           <input id="ppl" name="ppl" type="text" class="form-control" placeholder="Number of people" >
+         </div>
+         <br>
+         <div class="col">
+           <input id="time" name="time" type="text" class="form-control" placeholder="Time" >
+         </div>
+         <br>
+         <div class="col">
+          <input id="tid" name="tid" type="text" class="form-control" placeholder="Table ID" >
+        </div>
+        <br>
+         <button  type="submit" id="submit" value="submit" class="btn btn-primary">Reserve</button>
+     </div>
+    </form>
+
+   </div>
+  <!-- booking.js -->
+    <script src="booking.js" charset="utf-8"></script>
+</body>

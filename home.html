@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Indian Feast</title>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Fjalla+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/40c9a909b8.js" crossorigin="anonymous"></script>
+
+<link rel="icon" href="images/logo.png">
+
+</head>
+<body>
+   <div id="blur">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a href=""><img class=logo src="images/logo.png" alt=""></a>
+                <a class="navbar-brand" id="main" href="#">The Indian Feast</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li ><a href="#">Home</a></li>
+                <li><a href="bookinglayout.html">Booking</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"><button class="res"  onclick="reservation(event)" type="button"> <i class="fa-solid fa-plus"> </i> Reservation</button></a></li>
+              </ul>
+            </div>
+          </nav>
+
+
+          
+<div class=" container">
+    <h2></h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div >
+        <div class="carousel-inner">
+  
+            <div class="item active">
+              <img  src="images/food1.png" alt="Los Angeles">
+              <div class="carousel-caption">
+                <h3>Indian Naan and Sabji</h3>
+                <p>Where taste and health combine!</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="images/food2.png" alt="Chicago">
+              <div class="carousel-caption">
+                <h3>Samosa</h3>
+                <p>Mouth watering cravings!!</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img  src="images/food4.png" alt="New York" >
+              <div class="carousel-caption">
+                <h3>Hyderabadi Biryani</h3>
+                <p>The great Indian Legacy!</p>
+              </div>
+            </div>
+        
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <section class="first my-5">
+    <div>
+        <h2 class="text-center">About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+           anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+           dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+           anim id est laborum.</p>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container-fluid">
+        
+       <div class="col-lg-6 col-md-6 col-12 side" style="float:right;">
+        <h2 style="padding-left:56px">Host A Party!</h2>
+        <p style="margin-top: 15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        </p>
+        <a href="" style="margin-left:56px; margin-bottom: 20px; margin-top:15px ;" class="btn res">Inquire Now</a>
+       </div>
+       <div >
+         <img class="img-fluid image" src="images/img1.png" alt="">
+       </div>
+
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container-fluid">
+        
+       <div class="col-lg-6 col-md-6 col-12 side" style="float:left; margin-left: 60px;">
+        <h2 style="padding-left:56px">Organise An Event!</h2>
+        <p style="margin-top: 15px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        </p>
+        <a href="" style="margin-left:56px; margin-bottom: 20px; margin-top:15px ;" class="btn res">Inquire Now</a>
+       </div>
+       <div >
+         <img class="img-fluid image" style="margin-left:36px;" src="images/img2.png" alt="">
+       </div>
+
+    </div>
+  </section>
+
+  <section class="first my-5">
+    
+    <div >
+      <div class="text-center"><h2>Let's Connect</h2></div>
+      <div class="text-center">
+        <a href="" class="icon"> <i class="fa-brands fa-facebook fa-3x fa-fw"></i></a>
+        <a href="" class="icon"><i class="fa-brands fa-instagram fa-3x fa-fw"></i></a>
+        <a href="" class="icon"><i class="fa-brands fa-twitter fa-3x fa-fw"></i></a>
+      </div>
+           
+  </section>
+  
+  </div>
+</div>
+  <!-- booking.js -->
+  <div id="popup">
+    <form method="post" action="booking.php">
+     <div class="row ">
+       <div class="col">
+         <input id="name" name="name" type="text" class="form-control" placeholder="Name" >
+       </div>
+       <br>
+       <div class="col">
+         <input id="num" name="num" type="text" class="form-control" placeholder="Mobile Number" >
+       </div>
+       <br>
+       <div class="col">
+           <input id="ppl" name="ppl" type="text" class="form-control" placeholder="Number of people" >
+         </div>
+         <br>
+         <div class="col">
+           <input id="time" name="time" type="text" class="form-control" placeholder="Time" >
+         </div>
+         <br>
+         <div class="col">
+          <input id="tid" name="tid" type="text" class="form-control" placeholder="Table ID" >
+        </div>
+        <br>
+         <button  type="submit" id="submit" value="submit" class="btn btn-primary">Reserve</button>
+     </div>
+    </form>
+
+   </div>
+  <!-- booking.js -->
+
+  <script src="booking.js" charset="utf-8"></script>
+
+    
+</body>
+</html>
